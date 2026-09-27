@@ -1,15 +1,10 @@
-# Simple Student Result Processor
+Simple Student Result Processor
 
-**BIT223 – Week 2 Mini-Project**
+BIT223 – Week 2 Mini-Project
 
 A procedural Python program that collects student information, calculates averages, classifies results, and processes multiple students using lists and dictionaries.
 
-## Requirements
-
-- Python 3.x
-- No external packages are required.
-
-## Features
+Features
 
 - Stores a student's **name** and **registration number**.
 - Accepts marks for three subjects.
@@ -19,7 +14,7 @@ A procedural Python program that collects student information, calculates averag
 - Validates marks so they remain between 0 and 100.
 - Displays each student's final result.
 
-## Result Classification
+Result Classification
 
 | Average | Classification |
 |---:|---|
@@ -28,17 +23,13 @@ A procedural Python program that collects student information, calculates averag
 | 50–59.99 | Pass |
 | Below 50 | Fail |
 
-## How to Run
+How to Run
 
-Open a terminal in this project folder and run:
-
-```bash
-python main.py
-```
+Run the python file through terminal.
 
 Then enter the number of students and their details when prompted.
 
-## Example
+Example
 
 ```text
 ===================================
@@ -68,7 +59,7 @@ Classification: Distinction
 Processing complete.
 ```
 
-## Week 2 Procedural Concepts Demonstrated
+Week 2 Procedural Concepts Demonstrated
 
 - Variables
 - Input and output
@@ -80,13 +71,11 @@ Processing complete.
 - Loops
 - Basic input validation
 
-## Week 3 OOP Bridge
-
-The Week 2 version intentionally uses dictionaries and functions rather than a `Student` class. In Week 3, the same program can be redesigned so each student becomes a `Student` object with attributes and methods such as `calculate_average()`.
-
 ## Suggested Git Checkpoint
 
 ```bash
+git innit
 git add .
 git commit -m "feat: complete Week 2 student result processor"
+git status
 ```
